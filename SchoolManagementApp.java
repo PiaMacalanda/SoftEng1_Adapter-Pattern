@@ -1,7 +1,5 @@
 public interface SchoolManagementApp {
 
     //void plugin;
-    public void integrateSytem(){
-
-    }
+    public void integrateSystem();
 }

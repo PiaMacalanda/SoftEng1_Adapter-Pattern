@@ -1,9 +1,16 @@
 /**
  * LibrarySystemAdapter
  */
-public class LibrarySystemAdapter {
+public class LibrarySystemAdapter implements SchoolManagementApp {
+    
+    private LibrarySystem librarySystem;
 
-    public void manageBooks(){
-        
+    public LibrarySystemAdapter(LibrarySystem librarySystem) {
+        this.librarySystem = librarySystem;
+    }
+
+    @Override
+    public void integrateSystem() {
+        librarySystem.manageBooks();
     }
 }
