@@ -9,8 +9,8 @@ public class Main {
         SchoolManagementApp gradingAdapter = new GradingSystemAdapter(gradingSystem);
         SchoolManagementApp libraryAdapter = new LibrarySystemAdapter(librarySystem);
 
-        attendanceAdapter.integrateSystem();
-        gradingAdapter.integrateSystem();
-        libraryAdapter.integrateSystem();
+        System.out.println(attendanceAdapter.integrateSystem());
+        System.out.println(gradingAdapter.integrateSystem());
+        System.out.println(libraryAdapter.integrateSystem());
     }
 }
