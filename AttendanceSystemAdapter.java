@@ -1,6 +1,3 @@
-/**
- * AttendanceSytemAdapter
- */
 public class AttendanceSystemAdapter implements SchoolManagementApp{
     
     private AttendanceSystem attendanceSystem;
