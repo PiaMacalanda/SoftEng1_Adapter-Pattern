@@ -1,6 +1,3 @@
-/**
- * LibrarySystemAdapter
- */
 public class LibrarySystemAdapter implements SchoolManagementApp {
     
     private LibrarySystem librarySystem;
